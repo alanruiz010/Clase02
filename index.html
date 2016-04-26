@@ -1,0 +1,35 @@
+<html>
+<head>
+	<script type="text/javascript">
+	
+	</script>
+</head>
+<body>
+	<form id="frmPrincipal" action="administracion.php" method="post" enctype="multipart/form-data" onsubmit="controlador()">
+		<table border="1">
+			<tr>
+				<td colspan="6"> Datos Personales</td>
+			</tr>
+			<tr> 
+				<td rowspan="2"> Datos Obligatorios</td>
+				<td>Apellido</td> 
+				<td><input type="text" name="apellido"></td> 
+				<td>Nombre</td> 
+				<td><input type="text" name="nombre"></td>
+			</tr>
+			<tr> 
+				<td>Legajo</td>
+				<td><input type="text" name="legajo"></td>
+				<td>Seleccione Foto</td>
+				<td><input type="file" name="foto"></td>
+			</tr>
+			<tr> 
+				<td><input type="submit" value="Enviar" name="frm"><input type="reset" value="Limpiar"> <input type="submit" value="Eliminar" name="frm"></td>
+			</tr>
+		</table>
+			<a href="listar.php">Lista</a>
+	</form>
+
+
+</body>
+</html>
